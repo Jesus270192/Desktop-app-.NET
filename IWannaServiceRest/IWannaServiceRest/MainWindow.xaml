@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel Orientation="Vertical" >
+            <Label  Content="Put url below please"/>
+            <TextBox    />
+        </StackPanel>
     </Grid>
 </Window>
