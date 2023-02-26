@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Help", "WpfApp1\Help.csproj", "{9B5C5940-BC4E-477E-B257-741A986D8714}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTest", "AvaloniaTest\AvaloniaTest.csproj", "{569334CF-FFBD-4D5D-BAF7-1F56F4227F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Help", "Help\Help.csproj", "{6689F625-BD6B-4903-A490-074D9DB85DDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B5C5940-BC4E-477E-B257-741A986D8714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B5C5940-BC4E-477E-B257-741A986D8714}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B5C5940-BC4E-477E-B257-741A986D8714}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B5C5940-BC4E-477E-B257-741A986D8714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569334CF-FFBD-4D5D-BAF7-1F56F4227F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569334CF-FFBD-4D5D-BAF7-1F56F4227F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569334CF-FFBD-4D5D-BAF7-1F56F4227F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569334CF-FFBD-4D5D-BAF7-1F56F4227F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6689F625-BD6B-4903-A490-074D9DB85DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6689F625-BD6B-4903-A490-074D9DB85DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6689F625-BD6B-4903-A490-074D9DB85DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6689F625-BD6B-4903-A490-074D9DB85DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
