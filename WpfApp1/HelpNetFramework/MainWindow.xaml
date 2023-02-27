@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="7*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock  Text="{Binding Title}" Grid.Row="0" TextAlignment="Center" VerticalAlignment="Center" />
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal"  >
+            <Button Content="Example DG" />
+        </StackPanel>
+
+        <!--Here, We are going to show our controls-->
+        <Grid Grid.Row="2">
+            
+        </Grid>
+
         
     </Grid>
 </Window>

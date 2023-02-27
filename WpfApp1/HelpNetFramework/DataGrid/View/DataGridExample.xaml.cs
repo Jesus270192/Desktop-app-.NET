@@ -14,17 +14,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HelpNetFramework {
+namespace HelpNetFramework.DataGrid.View {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DataGridExample.xaml
     /// </summary>
-    public partial class MainWindow : Window {
-        private IVM VM;
-
-        public MainWindow() {
+    public partial class DataGridExample : UserControl , IControls {
+        public DataGridExample() {
             InitializeComponent();
-            VM = new MainWindowVM();
-            DataContext = VM;
         }
     }
 }
