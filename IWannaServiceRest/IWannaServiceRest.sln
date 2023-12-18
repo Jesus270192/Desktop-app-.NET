@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWannaServiceRest", "IWannaServiceRest\IWannaServiceRest.csproj", "{8744FDA1-69D1-4568-B7B0-DA645683E2B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IWannaServiceRest", "IWannaServiceRest\IWannaServiceRest.csproj", "{8744FDA1-69D1-4568-B7B0-DA645683E2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceTest", "WebServiceTest\WebServiceTest.csproj", "{AC7594C7-BC4F-41B3-AE47-E2FD41008D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8744FDA1-69D1-4568-B7B0-DA645683E2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8744FDA1-69D1-4568-B7B0-DA645683E2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8744FDA1-69D1-4568-B7B0-DA645683E2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7594C7-BC4F-41B3-AE47-E2FD41008D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7594C7-BC4F-41B3-AE47-E2FD41008D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7594C7-BC4F-41B3-AE47-E2FD41008D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7594C7-BC4F-41B3-AE47-E2FD41008D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

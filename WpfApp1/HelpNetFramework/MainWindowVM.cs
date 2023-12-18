@@ -1,5 +1,6 @@
 ﻿using HelpNetFramework.Commons;
 using HelpNetFramework.DataGrid.View;
+using HelpNetFramework.Rest.PokemonApi;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,12 +20,16 @@ namespace HelpNetFramework {
         
         public MainWindowVM() {
             Title = Message;
+            PokemonApi api = new PokemonApi("", "", "", "");
+            api.GetResult<NamePokemonRequest>();
             GenerateControls();
         }
 
         private void GenerateControls() {
             
             Controls = new DataGridExample();
+            PokemonApi api = new PokemonApi("","","","");
+            api.GetResult<NamePokemonRequest>();
         }
 
         void IVM.NotifyPropertyChanged(string propertyName) {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IWannaServiceRest
 {
-   public abstract class BodyRest
+   public abstract class Rest
     {
 
         private string port;
@@ -46,7 +46,7 @@ namespace IWannaServiceRest
             }
         }
 
-        public BodyRest(PROTOCOL protocol, string server, string port, string uri, string param, METHOD method)
+        public Rest(PROTOCOL protocol, string server, string port, string uri, string param, METHOD method)
         {
             this.protocol = protocol;
             this.uri = uri;
@@ -57,7 +57,7 @@ namespace IWannaServiceRest
 
         }
 
-        public BodyRest(PROTOCOL protocol, string uri, string server, string port, METHOD method)
+        public Rest(PROTOCOL protocol, string uri, string server, string port, METHOD method)
         {
             this.protocol = protocol;
             this.uri = uri;
