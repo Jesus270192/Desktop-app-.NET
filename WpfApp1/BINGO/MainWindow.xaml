@@ -46,8 +46,14 @@
         </Style>
     </Window.Resources>
     
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Label Content="10" FontSize="500"  x:Name="lblNumber" />
-        <Button Content="Iniciar" Click="Button_Click" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10"/>
-    </StackPanel>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Content="10" FontSize="500"  x:Name="lblNumber" Grid.Row="0"  HorizontalContentAlignment="Center"/>
+        <Button Content="Iniciar" Click="Button_Click" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10" Grid.Row="1"/>
+        <TextBlock  x:Name="lblNumbers" TextWrapping="Wrap" FontSize="25"   Grid.Row="2"/>
+    </Grid>
 </Window>
